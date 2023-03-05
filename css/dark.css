@@ -1,0 +1,83 @@
+
+/* button for change color
+.dark-mode-switch {
+    
+    background-color: #141414;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .switch-ball {
+    width: 1rem ;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #dddddd;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .dark-mode-switch.dark {
+    background-color: #dddddd;
+    transition: .5s;
+  }
+  
+  .dark-mode-switch.dark .switch-ball {
+    left: 2rem;
+    background-color: #141414;
+    transition: .5s;
+  } */
+
+
+  #switch{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    display: none;
+  }
+  
+  #labeldark {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    background-color: #141414;
+    display: block;
+    position: relative;
+  }
+  
+  #labeldark:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 1rem ;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #dddddd;
+    transition: 0.3s;
+  }
+  
+  #switch:checked + #labeldark {
+    background: #dddddd;
+  }
+  
+  #switch:checked + #labeldark:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+    background-color: #141414;
+  }
+  
+  #labeldark:active:after {
+    width: 1.2rem;
+  }
+
+/*  colors change */
+header.dark{
+    background-color: #141414;
+}
+
+  

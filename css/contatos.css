@@ -1,0 +1,314 @@
+.contact{
+    background-color: var(--c3);
+    padding-bottom: 10rem;
+    padding: 8rem 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact_area1{
+    font-family: 'Poppins';
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 0.01em;
+    color: var(--c13);
+    display: grid;
+    align-content: center;
+}
+
+.contact_title{
+    margin-bottom: 5rem;
+}
+
+.contact_area2{
+    background-color: var(--c1);
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 4rem;
+    max-width: 18rem;
+    position: relative;
+}
+
+
+.title_area, .socialmedia{
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: var(--c10);
+    display: block;
+}
+
+.email{
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: var(--c10);
+    margin-left: 4px;
+}
+
+.input_box{
+    position: relative;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+
+.input_box input,
+.input_box textarea{
+    width: 100%;
+    padding: 0.4rem 0;
+    margin: 0.7rem 0;
+    border: none;
+    border-bottom: 2px solid var(--c3);
+    background-color: var(--c1);
+    outline: none;
+    resize: none;
+}
+
+.input_box span{
+    position: absolute;
+    left: 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.01em;
+    color: var(--c6);
+    padding: 0.4rem 0;
+    margin: 0.7rem 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input_box input:focus ~ span,
+.input_box input:valid ~ span,
+.input_box textarea:focus ~ span,
+.input_box textarea:valid ~ span{
+    color:var(--r6);
+    font-size: 0.8rem;
+    transform: translateY(-1.3rem);
+
+}
+
+.input_box button[type="submit"]{
+    width: 6rem;
+    background: var(--r5);
+    color: var(--c1);
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: .25s;
+}
+
+.input_box button[type="submit"]:hover{
+    transform: scale(1.1);
+    background-color: var(--r6);
+}
+
+
+
+.socialmedia{
+    margin-top: 1.8rem;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(3, 3.5rem);
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.links img{
+    max-width: 4rem;
+    min-width: 4rem;
+    transition: .1s;
+}
+
+.links img:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+}
+
+.links button{
+    border: none;
+    background: none;
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+
+
+
+.copy-image::before {
+    content: "";
+    position: absolute;
+    top: -3.5rem;
+    left: 4rem;
+    transform: translateX(-50%);
+    background-color: var(--c13t);
+    color: var(--c1);
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 0.8rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    
+  }
+  
+  .copy-image:hover::before {
+    opacity: 1;
+  }
+  
+  .copy-image:active::before {
+    content: "Copied to clipboard!";
+    background-color: var(--r5);
+  }
+  
+  .copy-image:active::after {
+    content: "";
+    position: absolute;
+    top: -1rem;
+    left: 2.5rem;
+    transform: rotate(180deg);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--r5);
+    
+  }
+
+
+
+
+@media screen and (max-width: 1120px){
+    .contact_area1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0.01em;
+        margin-right: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 850px){
+    .contact_area1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0.01em;
+        margin-right: 1rem;
+    }
+
+    .contact_area2{
+        transform: scale(0.6);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .contact{
+        grid-template-columns: auto;
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+        justify-items:center;
+    }
+
+    .contact_area1{
+        display: grid;
+        justify-content: center;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .contact_title{
+        margin-bottom: 1rem;
+    }
+
+    .contact_area2{
+        transform: scale(0.88);
+        display: grid;
+        grid-template-columns: 1fr auto;
+        background-color: var(--c3);
+        box-shadow: none;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 0;
+    }
+
+    .area1, .area2{
+        background-color: var(--c1);
+        box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.25);
+        padding: 3rem;
+        border-radius: 10px;
+    }
+
+    .area2{
+        max-height: 6rem;
+    }
+
+    .area2 h1{
+        font-size: 0.8rem;
+    }
+
+    .socialmedia{
+        margin-top: 0;
+    }
+
+    
+    .links{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
+        padding: 0
+    }
+
+    .links img{
+        max-width: 2rem;
+        min-width: 2rem;
+    }
+
+    .copy-image::before {
+        content: "";
+        position: absolute;
+        top: -3.5rem;
+        left: 2rem;
+        transform: translateX(-50%);
+        background-color: var(--c13t);
+        color: var(--c1);
+        border-radius: 5px;
+        padding: 7px 10px;
+        font-size: 0.8rem;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        
+    }
+    
+    .copy-image:hover::before {
+        opacity: 1;
+    }
+    
+    .copy-image:active::before {
+        content: "Copied to clipboard!";
+        background-color: var(--r5);
+    }
+    
+    .copy-image:active::after {
+        content: "";
+        position: absolute;
+        top: -1rem;
+        left: 1rem;
+        transform: rotate(180deg);
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid var(--r5);
+        
+    }
+
+
+
+}
