@@ -8,7 +8,7 @@
     max-width: 18rem!important;
 }
 .name{
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 2rem;
     line-height: 3.75rem;
@@ -19,7 +19,7 @@
 
 .titlemain{
     display: block;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 6rem;
     line-height: 6rem;
@@ -41,7 +41,7 @@
 }
 
 .come{
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
     line-height: 3.75rem;

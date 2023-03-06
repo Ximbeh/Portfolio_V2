@@ -4,7 +4,7 @@
 }
 
 .title_certificates{
-    font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 5.8rem;
@@ -54,7 +54,7 @@
 }
 
 .slide_title{
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   color: var(--c11);
@@ -103,7 +103,7 @@
 }
 
 .slide_subtitle{
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     letter-spacing: -0.02em;
     color: var(--c12);
@@ -382,7 +382,7 @@ p#slide_information_id6.obmep{
 }
 
 .slide_title{
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   color: var(--c11);
@@ -431,7 +431,7 @@ p#slide_information_id6.obmep{
 }
 
 .slide_subtitle{
-    font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     letter-spacing: -0.02em;
     color: var(--c12);

@@ -311,6 +311,7 @@ let pt = [
     pt.map(e=>{
         let ptchange = document.getElementById(`${e.elementID}`);
         e.change = ptchange.innerHTML;
+        console.log(ptchange, change)
         ptchange.innerHTML = e.text;
         e.text = e.change;  
         if(ptchange.dataset.css && ptchange.dataset.tf == "false"){

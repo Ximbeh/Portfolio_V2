@@ -9,7 +9,7 @@
 }
 
 .myskill{
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 8rem;
     letter-spacing: 0.01em;
@@ -28,7 +28,7 @@
 }
 
 .hard{
-    font-family: 'Roboto mono';
+    font-family: 'Roboto mono', Arial, Helvetica, sans-serif    ;
     font-style: normal;
     font-weight: 400;
     font-size: 3rem;
@@ -228,7 +228,7 @@
     }
 
     .hard{
-        top: 3.5rem
+        top: 3.9rem
     }
 
 
@@ -242,7 +242,7 @@
 
     .hard{
         font-size: 1.5rem;
-        top: 0.7rem
+        top: 0.8rem
     }
 
     .container3_skill{
