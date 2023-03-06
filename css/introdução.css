@@ -1,6 +1,7 @@
 .main{
     margin-top: 8rem;
     margin-left: 10%;
+    position: relative;
     
 }
 .large_txt{
@@ -52,8 +53,8 @@
 
 .catmain{
     position: absolute;
-    max-width: 41rem;
-    top: -1rem;
+    max-width: 30rem;
+    bottom: -2rem;
     right: 0%;
     filter: drop-shadow(50px 10px 10px  #00000041);
     pointer-events: none;
@@ -71,8 +72,8 @@
    
 .catmain{
     position: absolute;
-    max-width: 35rem;
-    top: 6rem;
+    max-width: 27rem;
+    bottom: -2rem;
     right: 0%;
     filter: drop-shadow(50px 10px 10px  #00000041);
     pointer-events: none;
@@ -89,8 +90,7 @@
 @media screen and (max-width: 1120px){
 
     .catmain{
-        max-width: 35rem;
-        top: 6rem;
+        max-width: 25rem;
         right: -15%
     }
 }
@@ -128,25 +128,16 @@
 }
 
 .catmain{
-    max-width: 27.3rem;
-    top: 4rem;
+    max-width: 22rem;
     right: -10%
 }
 }
 
-@media screen and (max-width: 768px){
-    .catmain{
-        max-width: 23rem;
-        top: 9rem;
-        right: -20%
-    }
 
-
-}
-
-@media screen and (max-width: 630px){
+@media screen and (max-width: 680px){
     .catmain{
         display: none;
+        
     }
 
     .titlemain{
@@ -156,8 +147,10 @@
 
 @media screen and (max-width: 550px){
 
+
     .main{
-        margin-top: 3rem
+        margin-top: 3rem;
+        margin-right: 4.5rem ;
     }
         .name{
         font-size: 1.2rem;
@@ -187,11 +180,42 @@
     }
     
     .catmain{
-        max-width: 27.3rem;
-        top: 10%;
-        right: -10%
+        display: block;
+        max-width: 18rem;
+        bottom: -1rem;
+        right: -40%
+        
     }
     }
+
+@media screen and (max-width: 450px){
+
+    h3#subtitle_id.subtitle.large_txt{
+        margin-right: 10rem;
+        display: inline-block;
+    }
+
+    .catmain{
+        max-width: 15rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 375px){
+    .catmain{
+        right: -60%
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .catmain{
+        display: none;
+    }
+
+}
     
 
 

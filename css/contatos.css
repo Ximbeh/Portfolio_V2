@@ -238,6 +238,19 @@
         padding-top: 0;
     }
 
+    .title_area{
+        font-size: 1.1rem;
+        max-width: 8rem;
+    }
+
+    .email{
+        font-size: 0.7rem;
+    }
+
+    .input_box span{
+        font-size: 0.7rem;
+    }
+
     .area1, .area2{
         background-color: var(--c1);
         box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.25);
