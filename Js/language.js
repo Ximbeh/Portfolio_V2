@@ -208,17 +208,17 @@ let pt = [
   },
   {
     elementID: "slide_subtitle_id2",
-    text: "JavaScript Completo",
+    text: "HTML & CSS",
     change: ""
   },
   {
     elementID: "slide_subtitle_id3",
-    text: "JavaScript Completo",
+    text: "UX/UI Design",
     change: ""
   },
   {
     elementID: "slide_subtitle_id4",
-    text: "JavaScript Completo",
+    text: "Em breve...",
     change: ""
   },
   {
@@ -233,22 +233,22 @@ let pt = [
   },
   {
     elementID: "slide_information_id1",
-    text: "Em todos os meus anos como estudante, eu ganhei alguns Prêmios de aluno destaque, normalmente por uma junção de notas, conduta e desempenho.",
+    text: "Neste curso da Origamid aprendi quase tudo o que sei sobre JavaScript, foram mais de 30 horas de cursos com muito aprendizado!",
     change: ""
   },
   {
     elementID: "slide_information_id2",
-    text: "Em todos os meus anos como estudante, eu ganhei alguns Prêmios de aluno destaque, normalmente por uma junção de notas, conduta e desempenho.",
+    text: "Provavelmente o curso que mais me diverti fazendo, novamente, oferecido pela Origamid. São 23 horas de um ótimo curso para iniciantes na área.",
     change: ""
   },
   {
     elementID: "slide_information_id3",
-    text: "Em todos os meus anos como estudante, eu ganhei alguns Prêmios de aluno destaque, normalmente por uma junção de notas, conduta e desempenho.",
+    text: "Curso importantissimo que fiz antes de iniciar esse portfolio (e para este portfolio), as 17 horas de cursos me trouxeram diversos novos conhecimentos na area de Design Web, como o uso da ferramenta Figma.",
     change: ""
   },
   {
     elementID: "slide_information_id4",
-    text: "Em todos os meus anos como estudante, eu ganhei alguns Prêmios de aluno destaque, normalmente por uma junção de notas, conduta e desempenho.",
+    text: "Cursos de React, Java, C++, SQL, Node, Json e outros estão a caminho!",
     change: ""
   },
   {
