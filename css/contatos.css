@@ -325,3 +325,32 @@
 
 
 }
+
+
+@media screen and (max-width: 500px){
+
+    .contact{
+        padding: 8rem 0;
+
+    }
+    .contact_area2{
+        transform: scale(0.88);
+        grid-template-columns: 1fr;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 1rem;
+
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .contact_area2{
+        transform: scale(0.75);
+    }
+
+    .contact_title{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+}

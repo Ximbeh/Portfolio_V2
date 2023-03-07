@@ -233,22 +233,22 @@ let pt = [
   },
   {
     elementID: "slide_information_id1",
-    text: "Teste",
+    text: "Em todos os meus anos como estudante, eu ganhei alguns Prêmios de aluno destaque, normalmente por uma junção de notas, conduta e desempenho.",
     change: ""
   },
   {
     elementID: "slide_information_id2",
-    text: "Teste",
+    text: "Em todos os meus anos como estudante, eu ganhei alguns Prêmios de aluno destaque, normalmente por uma junção de notas, conduta e desempenho.",
     change: ""
   },
   {
     elementID: "slide_information_id3",
-    text: "Teste",
+    text: "Em todos os meus anos como estudante, eu ganhei alguns Prêmios de aluno destaque, normalmente por uma junção de notas, conduta e desempenho.",
     change: ""
   },
   {
     elementID: "slide_information_id4",
-    text: "Teste",
+    text: "Em todos os meus anos como estudante, eu ganhei alguns Prêmios de aluno destaque, normalmente por uma junção de notas, conduta e desempenho.",
     change: ""
   },
   {
@@ -311,7 +311,6 @@ let pt = [
     pt.map(e=>{
         let ptchange = document.getElementById(`${e.elementID}`);
         e.change = ptchange.innerHTML;
-        console.log(ptchange, change)
         ptchange.innerHTML = e.text;
         e.text = e.change;  
         if(ptchange.dataset.css && ptchange.dataset.tf == "false"){
