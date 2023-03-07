@@ -171,6 +171,7 @@ ul{
 #menu__toggle:checked ~ .menu__box {
   right: 4rem !important;
   top: 1rem !important;
+  display: block;
 }
 
 /* header.sticky{
