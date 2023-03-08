@@ -67,7 +67,7 @@ let pt = [
   },
   {
     elementID: "subtitle_id",
-    text: "👨‍💻 Desenvolvedor Front-End, Artista e Designer a mais ou menos um ano. Quer conhecer mais sobre mim?",
+    text: "👨‍💻 Desenvolvedor Front-End, Artista e Designer há aproximadamente um ano. Quer conhecer mais sobre mim?",
     change: "",
     rm: false
   },
@@ -83,12 +83,12 @@ let pt = [
   },
   {
     elementID: "hi_id",
-    text: "Ola!",
+    text: "Olá!",
     change: ""
   },
   {
     elementID: "description_id",
-    text: " Meu nome é <strong>Cairé</strong>, tenho 17 anos e moro em Florianópolis, estudo atualmente na escola <strong>SESI/SENAI</strong>, na area de desenvolvimento de sistemas.Estou buscando um <strong>trabalho</strong>, principalmente um <strong>Estagio</strong> com aspectos de <br><strong>Front-End</strong> e <strong>Design</strong>",
+    text: " Meu nome é <strong>Cairé</strong>, tenho 18 anos e moro em Florianópolis, estudo atualmente na escola <strong>SESI/SENAI</strong>, na área de desenvolvimento de sistemas. Estou buscando um <strong>trabalho</strong>, principalmente um <strong>Estágio</strong> com aspectos de <br><strong>Front-End</strong> e <strong>Design</strong>",
     change: ""
   },
   {
@@ -111,32 +111,27 @@ let pt = [
 
   {
     elementID: "sub_project_id",
-    text: "Estes são alguns dos meus <strong>sites</strong> e <strong>desenhos</strong> favoritos que eu fiz neste ano e no ano passado. Espero que gostem!",
-    change: ""
-  },
-  {
-    elementID: "sub_project_id",
-    text: "Estes são alguns dos meus <strong>sites</strong> e <strong>desenhos</strong> favoritos que eu fiz neste ano e no ano passado. Espero que gostem!",
+    text: "Estes são alguns dos meus <strong>sites</strong> e <strong>desenhos</strong> favoritos que fiz neste ano e no ano passado. Espero que gostem!",
     change: ""
   },
   {
     elementID: "p1_id",
-    text: "Feito logo no inicio de 2023, estava maratonando alguns videos da DevMedia e vi esta prova Front-End que eles fizeram para escolha de estagio, fiquei curioso para saber se eu conseguia repetir o mesmo resultado no tempo proposto. Eu acho que posso dizer que consegui 90% da parte de Front-End, só faltando algumas exatidões em tamanhos e a posição dos botões.",
+    text: "Feito logo no inicio de 2023, estava maratonando alguns vídeos da DevMedia e ví esta prova Front-End que eles fizeram para escolha de estágio, fiquei curioso para saber se eu conseguia repetir o mesmo resultado no tempo proposto. Acho que posso dizer que consegui 90% da parte de Front-End, só faltando algumas exatidões em tamanhos e a posição dos botões.",
     change: ""
   },
   {
     elementID: "p2_id",
-    text: "Esta calculadora de IMC foi um dos meus maiores desafios e um dos meus maiores orgulhos, foi parte da prova trimestral na Escola S no segundo trimestre do segundo ano, tivemos meia manha para fazer esse site envolvendo um pouco de tudo o que aprendemos. Digo que fico orgulhoso pois consegui me superar tanto na questão de código quando na de Design, foi um dos primeiros sites verdadeiramente bonitos (para o nível da época) que eu fiz.",
+    text: "Esta calculadora de IMC foi um dos meus maiores desafios e um dos meus maiores orgulhos, foi parte da prova trimestral na Escola S no segundo trimestre do segundo ano, tivemos meia manhã para fazer esse site envolvendo um pouco de tudo o que aprendemos. Digo que fico orgulhoso pois consegui me superar tanto na questão de código quando na de Design, foi um dos primeiros sites verdadeiramente bonitos (para o nível da época) que eu fiz.",
     change: ""
   },
   {
     elementID: "p3_id",
-    text: "Certamente  um dos maiores projeto e o mais trabalhoso que tive. A situação de aprendizagem juntou duas matérias, natureza e desenvolvimento de sistemas, criando então um trabalho em grupo para um semestre inteiro, aonde tinhamos que fazer um site sobre térmodinamica, seus conceitos, utilidades e uma calculadora funcional. Hoje em dia consigo olhar para trás e ver todos os erros que cometi na epoca e como eu consegui superar eles hoje em dia, isto é muito gratificante.",
+    text: "Certamente um dos maiores projeto e o mais trabalhoso que tive. A situação de aprendizagem juntou duas matérias, natureza e desenvolvimento de sistemas, criando então um trabalho em grupo para um semestre inteiro, aonde tinhamos que fazer um site sobre termodinâmica, seus conceitos, utilidades e uma calculadora funcional. Hoje em dia consigo olhar para trás e ver todos os erros que cometi na época e como eu consegui superar eles hoje em dia, isto é muito gratificante.",
     change: ""
   },
   {
     elementID: "p4_id",
-    text: "Projeto simples mas importantissimo, parte do curso de HTML e CSS da Origamid, testei meus conhecimentos dos mais basicos até os mais avançados em ambas as linguagens, sendo este inclusive meu primeiro projeto responsivo.",
+    text: "Projeto simples mas importantíssimo, parte do curso de HTML e CSS da Origamid, testei meus conhecimentos dos mais básicos até os mais avançados em ambas as linguagens, sendo este meu primeiro projeto responsivo.",
     change: ""
   },
   {
@@ -146,7 +141,7 @@ let pt = [
   },
   {
     elementID: "p6_id",
-    text: "Passei semanas neste desenho, uma releitura da <cite>Ponte Japonesa</cite> de Monet, aonde coloco uma countryball do Japão na pintura. Certamente algo que elevou meu nivel artistico, me aproximando mais ainda do impressionismo e seus conceitos.",
+    text: "Passei semanas neste desenho, uma releitura da <cite>Ponte Japonesa</cite> de Monet, onde coloco uma countryball do Japão na pintura. Certamente algo que elevou meu nível artistico, me aproximando mais ainda do impressionismo e seus conceitos.",
     change: ""
   },
   {
@@ -156,7 +151,7 @@ let pt = [
   },
   {
     elementID: "p8_id",
-    text: "Neste desafio passado pelo professor Bruno, tivemos que usar nossa critatividade para criar um sistema de login funcional em alguma plataforma digital, nosso grupo então decidiu recriar do zero o site da Geekie One(Aonde temos nosso conteudo para estudo), com a regra de não poder olhar o código original do site.",
+    text: "Neste desafio passado pelo professor Bruno, tivemos que usar nossa critatividade para criar um sistema de login funcional em alguma plataforma digital, nosso grupo então decidiu recriar do zero o site da Geekie One (Aonde temos nosso conteúdo para estudo), com a regra de não poder olhar o código original do site.",
     change: ""
   },
 
@@ -243,7 +238,7 @@ let pt = [
   },
   {
     elementID: "slide_information_id3",
-    text: "Curso importantissimo que fiz antes de iniciar esse portfolio (e para este portfolio), as 17 horas de cursos me trouxeram diversos novos conhecimentos na area de Design Web, como o uso da ferramenta Figma.",
+    text: "Curso importantíssimo que fiz antes de iniciar esse portfolio (e para este portfolio). As 17 horas de cursos me trouxeram diversos novos conhecimentos na area de Design Web, como o uso da ferramenta Figma.",
     change: ""
   },
   {
@@ -263,7 +258,7 @@ let pt = [
   },
   {
     elementID: "contact_title_id",
-    text: "Procurando<br>Alguem?",
+    text: "Procurando<br>Alguém?",
     change: ""
   },
   {

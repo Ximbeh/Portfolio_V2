@@ -141,7 +141,7 @@
 
 
 
-.copy-image::before {
+.copy-image::after {
     content: "";
     position: absolute;
     top: -3.5rem;
@@ -158,16 +158,16 @@
     
   }
   
-  .copy-image:hover::before {
+  .copy-image:hover::after {
     opacity: 1;
   }
   
-  .copy-image:active::before {
+  .copy-image:active::after {
     content: "Copied to clipboard!";
     background-color: var(--r5);
   }
   
-  .copy-image:active::after {
+  .copy-image:active::before {
     content: "";
     position: absolute;
     top: -1rem;
@@ -179,6 +179,10 @@
     border-right: 10px solid transparent;
     border-bottom: 10px solid var(--r5);
     
+  }
+
+  #zap{
+    margin-left: 0.35rem;
   }
 
 

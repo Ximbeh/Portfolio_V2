@@ -512,7 +512,7 @@
       }
 
       .point_cat{
-        max-width: 10rem;
+        max-width: 8rem;
         left: 3rem;
         bottom: -37rem;
     }
@@ -579,7 +579,7 @@
         }
 
       .point_cat{
-        max-width: 10rem;
+        max-width: 8rem;
         bottom: -48rem;
         left: 3rem;
         }
@@ -598,6 +598,13 @@
             margin-right: 0;
         }
 }
+
+@media screen and (max-width: 375px) {
+    .point_cat{
+        max-width: 8rem;
+    }
+}
+
 
 
 
@@ -627,6 +634,11 @@
         width: 40vw;
         font-size: 0.6rem;
         padding: 5rem 3rem 2rem 3rem;
+    }
+
+    .point_cat{
+        max-width: 10rem;
+        left: 1rem
     }
    
 }
