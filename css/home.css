@@ -2,6 +2,7 @@
     background-color: var(--c3);
     text-align: center;
     padding-bottom: 10rem;
+    z-index: 10;
 }
 
 .title_home{

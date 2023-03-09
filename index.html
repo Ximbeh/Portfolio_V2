@@ -13,486 +13,491 @@
     <script type="text/javascript" src="./Js/contact.js"></script>
     <script src="/Js/language.js"></script>
     <script src="./Js/darkmode.js"></script>
+    <script src="./Js/scroll.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     </head>
 <body>
-
-
-    <header id="header_id">
-        
-        <h1 class="brand">Cairé</h1>
-        <nav id="nav" class="content en">
-            <ul>
-                <a id="home_link" href="#home_id">About</a>
-                <a id="skill_link" href="#skill_id">Skills</a>
-                <a id="project_link" href="#project_id">Projects</a>
-                <a id="certificate_link" href="#certificate_id">Certificates</a>
-                <a id="contact_link" href="#contact_id">Contact</a>
-            </ul>
-        </nav>
-
-        <div class="hamburger-menu">
+    <img src="./img/Mask group.svg" id="btnTopo">
+    <div class="body_simulator">
+        <header id="header_id">
             
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-            <span></span>
-            </label>
+            <h1 class="brand">Cairé</h1>
+            <nav id="nav" class="content en">
+                <ul>
+                    <a id="home_link" href="#home_id">About</a>
+                    <a id="skill_link" href="#skill_id">Skills</a>
+                    <a id="project_link" href="#project_id">Projects</a>
+                    <a id="certificate_link" href="#certificate_id">Certificates</a>
+                    <a id="contact_link" href="#contact_id">Contact</a>
+                </ul>
+            </nav>
+
+            <div class="hamburger-menu">
+                
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+                
+                <div class="menu__box" tabindex="-1">
+                    <h1 tabindex="-1" id="settings_id">Settings</h1>
+                    <h2 tabindex="-1" id="change_id">Change Language</h2> 
+                    <div tabindex="-1" class="language-switcher">
+                        <button tabindex="-1"class="change_buttom" id="change_button" onclick="change()">Português</button>
+                    </div>
+        
+                    <h2 tabindex="-1" class="darkmodetext" id="darkmode_id">DarkMode</h2>
+                    <input tabindex="-1" type="checkbox" id="switch" /><label id="labeldark" for="switch">Toggle</label>
+                
+                    <img tabindex="-1" class="optioncat" src="./img/gatooptions.png" alt="">
             
-            <div class="menu__box" tabindex="-1">
-                <h1 tabindex="-1" id="settings_id">Settings</h1>
-                <h2 tabindex="-1" id="change_id">Change Language</h2> 
-                <div tabindex="-1" class="language-switcher">
-                    <button tabindex="-1"class="change_buttom" id="change_button" onclick="change()">Português</button>
-                </div>
-    
-                <h2 tabindex="-1" class="darkmodetext" id="darkmode_id">DarkMode</h2>
-                <input tabindex="-1" type="checkbox" id="switch" /><label id="labeldark" for="switch">Toggle</label>
-               
-                <img tabindex="-1" class="optioncat" src="./img/gatooptions.png" alt="">
-           
-                <nav id="nav navmenu" class="content en">
-                    <ul>
-                        <a id="home_link2" href="#home_id">About</a>
-                        <a id="skill_link2" href="#skill_id">Skills</a>
-                        <a id="project_link2" href="#project_id">Projects</a>
-                        <a id="certificate_link2" href="#certificate_id">Certificates</a>
-                        <a id="contact_link2" href="#contact_id">Contact</a>
-                    </ul>   
-                </nav>
-            <div>
+                    <nav id="nav navmenu" class="content en">
+                        <ul>
+                            <a id="home_link2" href="#home_id">About</a>
+                            <a id="skill_link2" href="#skill_id">Skills</a>
+                            <a id="project_link2" href="#project_id">Projects</a>
+                            <a id="certificate_link2" href="#certificate_id">Certificates</a>
+                            <a id="contact_link2" href="#contact_id">Contact</a>
+                        </ul>   
+                    </nav>
+                <div>
+                
+
             
+            </div>
+
+
+
+        </header>
+
+        <section class="main" id="main_id">
+            <h2 class="name">Cairé Maia</h2>
+            <h1 class="titlemain" id="posição-gato">Front end</h1>
+            <img class="catmain" src="./img/gatomain.png">
+            <h1 class="titlemain">&</h1> 
+            <h1 class="titlemain">ux/ui design</h1>
+            <h3 id="subtitle_id" data-css="large_txt" data-nm="subtitle" data-tf="false" class="subtitle">👨‍💻 Front-End developer, Artist and Designer for about a year.
+                                    Want to hear more about me?</h3>
+            <a class="come" id="come_id" href="#home_id">Come with me!</a>
+        
+        </section>
 
         
-         </div>
 
-
-
-    </header>
-
-    <section class="main">
-        <h2 class="name">Cairé Maia</h2>
-        <h1 class="titlemain" id="posição-gato">Front end</h1>
-        <img class="catmain" src="./img/gatomain.png">
-        <h1 class="titlemain">&</h1> 
-        <h1 class="titlemain">ux/ui design</h1>
-        <h3 id="subtitle_id" data-css="large_txt" data-nm="subtitle" data-tf="false" class="subtitle">👨‍💻 Front-End developer, Artist and Designer for about a year.
-                                  Want to hear more about me?</h3>
-        <a class="come" id="come_id" href="#home_id">Come with me!</a>
-       
-    </section>
-
-    <section class="home">
-        <h1 id="home_id" class="title_home"> Who am I</h1>
-        <container class="grid-home">
-            <img class="happy_cat" src="./img/gatofeliz2.png">
-            
-            <!-- Eu sei que devemos evitar elementos fantasmas para criação de detalhes
-                 mas aparenemente ::before e ::after não funcionam em imagens em algums browser
-                 e não achei solução alternativa. -->
-            <span class="datail"></span>
-            <article class="speak_cat">
-                <h2 id="hi_id">Hi!</h2>
-                <p id="description_id" class="description"> My name is <strong>Cairé</strong>, I'm 18 years old and a System Development student in SESI/SENAI, Florianópolis - Brazil. I'm looking for a <strong>job</strong>, mainly as an <strong>Intern</strong> with 
-                    <strong>Front-end</strong> and <strong>Design</strong> aspects.</p>
-            </article>
-            <img class="happy_cat2" src="./img/Gatodeitado.png">
-        </container>
-    </section>
-  
-    
-    <section id="skill_id" class="skill">
-        <container class="container1_skill">
-            <article class="myskill">
-                <p id="my_id" class="my">My</p>
-                <p class="skills">Skills</p>
-            </article>
-            <h3 class="hard">Hard</h3>
-            <div class="gambiarra"></div>
-        </container>
-
-        <container class="container2_skill">
-            <article class="skillevel">
-                <h3 class="desc">JavaScript</h3>
-                <img class="nivel" src="./img/Vector.svg">
-                <h3 class="desc">CSS3</h3>
-                <img class="nivel" src="./img/Vector(2).svg">
-                <h3 class="desc">HTML5</h3>
-                <img class="nivel" src="./img/Vector(3).svg">
-            </article>
-        </container>
-        
-        <container class="container3_skill">
-            <div class="tooltip">
-                <span class="description_skill">CSS</span>
-                <img class="skill_icon" src="./img/css.png" alt="Css">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">HTML</span>
-                <img class="skill_icon" src="./img/html.png" alt="Html">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">JavaScript</span>
-                <img class="skill_icon" src="./img/js.png" alt="JavaScript">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">Github</span>
-                <img class="skill_icon" src="./img/github.png" alt="Github">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">Netlify</span>
-                <img class="skill_icon" src="./img/neltfly.png" alt="Neltfly">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">Json</span>
-                <img class="skill_icon" src="./img/json.png" alt="Json">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">CoreoDraw</span>
-                <img class="skill_icon" src="./img/coreodraw.png" alt="CoreoDraw">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">Photoshop</span>
-                <img class="skill_icon" src="./img/photoshop.png" alt="PhotoShop">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">Excel</span>
-                <img class="skill_icon" src="./img/excel.png" alt="Excel">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">PowerPoint</span>
-                <img class="skill_icon" src="./img/powerpoint.png" alt="PowerPoint">
-            </div>
-            <div class="tooltip">
-                <span class="description_skill">Word</span>
-                <img class="skill_icon" src="./img/word.png" alt="Word">
-            </div>
-            <div class="tooltip">
-                <span id="windows_id" class="description_skill">Windows System</span>
-                <img class="skill_icon" src="./img/windows.png" alt="Windows">
-            </div>
+        <section class="home">
+            <h1 id="home_id" class="title_home"> Who am I</h1>
+            <container class="grid-home">
+                <img class="happy_cat" src="./img/gatofeliz2.png">
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-            <!-- //pesquisar como colocar button em vetor -->
-    
-        </container>
-        
-    </section>
-
-
-    <section class="projects">
-        <container class="left_project">
-            <h1 id="title_project_id" class="title_project">Pro <br> jects</h1>
-            <h3 id="sub_project_id" class="sub_project">Theses are some of my favorites <strong>sites</strong> and <strong>drawings</strong> I've
-            since last year. Hope you enjoy!</h3>
-            <img class="point_cat" src="./img/gatoapontando.png">
-        </container>
-        <div class = "project-wrapper" id="project_id"> 
-            <container id="project_id1" class="project">
-                <img data-modal-target="#modal1" id="project_img1" class="" src="./img/devmedia.jpg">
-                <img data-modal-target="#modal2" id="project_img2" src="./img/calculadoraimc.jpg">
-                <img data-modal-target="#modal3" id="project_img3" src="./img/Situacao.jpg">
-                <img data-modal-target="#modal4" id="project_img4" src="./img/bikcraft.jpg">
-                <img data-modal-target="#modal5" id="project_img5" src="./img/EsRKnlaWMAEPeTi.jpg">
-                <img data-modal-target="#modal6" id="project_img6" src="./img/japao.jpg">
-                <img data-modal-target="#modal7" id="project_img7" src="./img/labareda.jpg">
-                <img data-modal-target="#modal8" id="project_img8" src="./img/geekie one.jpg">
-                <!-- <img class="arrow" id="arrow" src="./img/arrow-right-1.svg" alt=""> -->
+                <!-- Eu sei que devemos evitar elementos fantasmas para criação de detalhes
+                    mas aparenemente ::before e ::after não funcionam em imagens em algums browser
+                    e não achei solução alternativa. -->
+                <span class="datail"></span>
+                <article class="speak_cat">
+                    <h2 id="hi_id">Hi!</h2>
+                    <p id="description_id" class="description"> My name is <strong>Cairé</strong>, I'm 18 years old and a System Development student in SESI/SENAI, Florianópolis - Brazil. I'm looking for a <strong>job</strong>, mainly as an <strong>Intern</strong> with 
+                        <strong>Front-end</strong> and <strong>Design</strong> aspects.</p>
+                </article>
+                <img class="happy_cat2" src="./img/Gatodeitado.png">
             </container>
-            <!-- <container id="project_id2" class="project">
-                <img data-modal-target="#modal01" id="project_img01" src="./img/CarnavalBrasil.jpeg">
-                <span id="span1">Coming Soon...</span>
-                <span id="span2">Coming Soon...</span>
-                <span id="span3">Coming Soon...</span>
-                <span id="span4">Coming Soon...</span>
-                <span id="span5">Coming Soon...</span>
-                <span id="span6">Coming Soon...</span>
-                <span id="span7">Coming Soon...</span>
-                <img class="arrow" id="arrow" src="./img/arrow-right-1.svg" alt="">
-            </container> -->
-          
-        </div>
-       
-
-        <div class="modal" id="modal1">
-            <button data-close-button class="close_button">&times;</button>
-            <img src="./img/devmedia.jpg">
-            <p id="p1_id">I made this project in early 2023, I was watching several videos of  <a href="https://www.devmedia.com.br/" target="_blank">DevMedia</a> and saw a Front-End test that they made for new interns. So I decided to prove myself and tried to reply with the same result in the same amount of time. I can say that I got 90% in Front-End, just some sizes and colors that aren't perfect, and, of course, the position of the buttons.  </p>
-            <!-- <p>Feito logo no inicio de 2023, estava maratonando alguns videos da <a href="https://www.devmedia.com.br/" target="_blank">DevMedia</a> e vi esta prova Front-End que eles fizeram para escolha de estagio, fiquei curioso para saber se eu conseguia repetir o mesmo resultado no tempo proposto. Eu acho que posso dizer que consegui 90% da parte de Front-End, só faltando algumas exatidões em tamanhos e a posição dos botões.</p> -->
-            <div class="button_project">
-                <a href="https://dev-media-teste.netlify.app" target="_blank">Site</a>
-                <a id="repositorio_id" href="https://github.com/Ximbeh/Teste_DevMidia_Prova" target="_blank">Repository</a>
-            </div>
-        </div>
-
-        <div class="modal" id="modal2">
-            <button data-close-button class="close_button">&times;</button>
-            <img src="./img/calculadoraimc.jpg"></a>
-            <p id="p2_id">This IMC calculator was one of my biggest challenges and one of my favorite projects. It was part of the quarterly test in <a href="https://escola-s.com/" target="_blank">Escola S</a> at the second quarter of the second year. We had half of a morning to make this website involving a bit of everything that we learned. I say that it is one of my favorite projects because I had to overcome myself in both coding and CSS... this was one of my first "beautiful" sites.</p>
-            <!-- <p>Esta calculadora de IMC foi um dos meus maiores desafios e um dos meus maiores orgulhos, foi parte da prova trimestral na <a href="https://escola-s.com/" target="_blank">Escola S</a> no segundo trimestre do segundo ano, tivemos meia manha para fazer esse site envolvendo um pouco de tudo o que aprendemos. Digo que fico orgulhoso pois consegui me superar tanto na questão de código quando na de Design, foi um dos primeiros sites verdadeiramente bonitos (para o nível da época) que eu fiz.</p> -->
-            <div class="button_project">
-                <a href="https://imc-calculator-senai.netlify.app" target="_blank">Site</a>
-                <a id="repositorio_id2" href="https://github.com/Caire-Maia/IMC_Calculator" target="_blank">Repository</a>
-            </div>
-        </div>
-
-        <div class="modal" id="modal3">
-            <button data-close-button class="close_button">&times;</button>
-            <img src="./img/Situacao.jpg"></a>
-            <p id="p3_id">Certainly the biggest projects (maybe it's going down to second with this Portfolio) and the painful ones. The "Situação de Aprendizagem" was a project that combined two subjects, Nature (Quimic, Physics and Biology) and System Development, creating group work for an entire semester. The theme of the site is thermodynamics, your concepts, utilities, and a functional calculator. Today I can look back and see all the progress, this is so gratifying
-            <!-- <p>Certamente o maior projeto (talvez fique em segundo com esse Portfólio) e o mais trabalhoso que tive. A situação de aprendizagem juntou duas matérias, natureza e desenvolvimento de sistemas, criando então um trabalho em grupo para um semestre inteiro, aonde tinhamos que fazer um site sobre térmodinamica, seus conceitos, utilidades e uma calculadora funcional. Hoje em dia consigo olhar para trás e ver todos os erros que cometi na epoca e como eu consegui superar eles hoje em dia, isto é muito gratificante.</p> -->
-            <div class="button_project">
-                <a href="https://barcopoggers.netlify.app/" target="_blank">Site</a>
-                <a id="repositorio_id3"  href="#" target="_blank">Repository</a>
-            </div>
-        </div>
-
-        <div class="modal" id="modal4">
-            <button data-close-button class="close_button">&times;</button>
-            <img src="./img/bikcraft.jpg"></a>
-            <p id="p4_id"> A simple project, but very important, part of the HTML and CSS course of <a href="https://www.origamid.com/" target="_blank">Origamid</a>. I tested from the simplest to the most advanced pieces of knowledge. This was my first Responsive Website.  </p>
-            <!-- <p>Projeto simples mas importantissimo, parte do curso de HTML e CSS da <a href="https://www.origamid.com/" target="_blank">Origamid</a>, testei meus conhecimentos dos mais basicos até os mais avançados em ambas as linguagens, sendo este inclusive meu primeiro projeto responsivo.</p> -->
-            <div class="button_project">
-                <a href="https://bikcraftatv600.netlify.app" target="_blank">Site</a>
-                <a id="repositorio_id4"  href="https://github.com/Ximbeh/0606_Origamid_HTMLCSS" target="_blank">Repository</a>
-            </div>
-        </div>
-
-        <div class="modal" id="modal5">
-            <button data-close-button class="close_button">&times;</button>
-            <img src="./img/EsRKnlaWMAEPeTi.jpg"></a>
-            <p id="p5_id">Maybe my favorite drawing. I tested a hot colour palette and challenged myself to do a more realistic inside-house landscape, something that I particularly dislike. I drew in photoshop with some images for reference.</p>
-            <!-- <p>Um dos meus desenhos favoritos, testei uma paleta de cores mais quentes e me desafiei ao desenhar realismo em paisagem "inside-house", algo que particularmente não curto. Fiz no photoshop com algumas referencias.</p> -->
-        </div>
-
-        <div class="modal" id="modal6">
-            <button data-close-button class="close_button">&times;</button>
-            <img src="./img/japao.jpg"></a>
-            <p id="p6_id"> I spent weeks on this drawing, a reference to <cite>"Japanese Bridge"</cite> from Monet, where I draw Japan's Countryball in the painting. The work as a whole certainly elevated my artistic level, bringing me even closer to impressionism and its concepts. </p>
-            <!-- <p>Passei semanas neste desenho, uma releitura da <cite>"Ponte Japonesa"</cite> de Monet, aonde coloco uma countryball do Japão na pintura. Certamente algo que elevou meu nivel artistico, me aproximando mais ainda do impressionismo e seus conceitos.</p> -->
-        </div>
-
-        <div class="modal" id="modal7">
-            <button data-close-button class="close_button">&times;</button>
-            <img src="./img/labareda.jpg">
-            <p id="p7_id">This website is a bit different because I technically didn't entirely make it. I helped a friend with the Design and some other simple fixes to the code, and I earned a Sushi! </p>
-            <!-- <p>Este site é um pouco diferente, nele somente ajudei meu amigo Daniel Siqueira na parte de Design e outras ajudas simples com o código, ganhei um sushi por isso!</p> -->
-            <div class="button_project">
-                <a href="#">Site</a>
-                <a id="repositorio_id5" href="https://github.com/Danielsqrr/Daniel-Siqueira" target="_blank">Repository</a>
-            </div>
-        </div>
-
-        <div class="modal" id="modal8">
-            <button data-close-button class="close_button">&times;</button>
-            <img src="./img/geekie one.jpg">
-            <p id="p8_id">In this challenge requested by Teacher <a href="https://www.linkedin.com/in/bruno-bandeira-fernandes/" target="_blank">Bruno</a> we had to use our creativity to create a functional login system for some digital platform. Our group decided to re-create from scratch the site of <a href="https://one.geekie.com.br/" target="_blank">Geekie One</a> (Where we have our content to study). We made a rule that we cannot look at the original code of the site</p>
-            <!-- <p>Neste desafio passado pelo professor <a href="https://www.linkedin.com/in/bruno-bandeira-fernandes/" target="_blank">Bruno</a> tivemos que usar nossa critatividade para criar um sistema de login funcional em alguma plataforma digital, nosso grupo então decidiu recriar do zero o site da <a href="https://one.geekie.com.br/" target="_blank">Geekie One</a> (Aonde temos nosso conteudo para estudo), com a regra de não poder olhar o código original do site.</p> -->
-            <div class="button_project">
-                <a href="https://geekieone.netlify.app" target="_blank">Site</a>
-                <a id="repositorio_id6" href="https://github.com/Ximbeh/Desafio-Front-End" target="_blank">Repository</a>
-            </div>
-        </div>
-
-
-
-
-        <div id="overlay"></div>
-
-    </section>
-
-
-     <section id="certificate_id" class="certificates">
-        <h1 id="title_certificate_id" class="title_certificates">Certificates</h1>
-
-        <div class="content_certificates">
-            <article class="courses">
-                <div class="slider">
-                    <h1 id="slide_title_id" class="slide_title">Courses</h1>
-                    
-                    <div class="slide_img">
-                        <div class="slides">
-                            <input type="radio" name="radio-btn" id="radio1">
-                            <input type="radio" name="radio-btn" id="radio2">
-                            <input type="radio" name="radio-btn" id="radio3">
-                            <input type="radio" name="radio-btn" id="radio4">
-                    
-                            <div class="slide first">
-                                <div class="slide_content">
-                                    <div class="slide_text">
-                                        <h3 id="slide_subtitle_id1" class="slide_subtitle">Complete JavaScript</h3>
-                                        <p id="slide_information_id1" class="slide_information">In this Origamid course, I learned almost everything I know about JavaScript, it was more than 30 hours of courses with a lot of learning!</p>
-                                    </div>
-                                    <img class = "slide_photo" src="./img/origamidJS.png" alt="">
-                                </div>
-                                
-                            </div>
-                            <div class="slide">
-                                <div class="slide_content">
-                                    <div class="slide_text">
-                                        <h3 id="slide_subtitle_id2" class="slide_subtitle">HTML & CSS</h3>
-                                        <p id="slide_information_id2" class="slide_information">Probably the course I had the most fun doing, once again offered by Origamid. It's a great 23-hour course for beginners in the field.</p><object data="" type=""></object>
-                                    </div>
-                                    <img class = "slide_photo" src="./img/origamidCSS.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="slide_content">
-                                    <div class="slide_text">
-                                        <h3 id="slide_subtitle_id3" class="slide_subtitle">UX/UI Design</h3>
-                                        <p id="slide_information_id3" class="slide_information">Very important course that I took before starting this portfolio (and for this portfolio), the 17 hours of courses brought me several new knowledge in the area of Web Design, such as the use of the Figma tool.</p>
-                                    </div>
-                                    <img class = "slide_photo" src="./img/origamidDESIGN.png" alt="">
-                                </div>
-                                
-                            </div>
-                            <div class="slide">
-                                <div class="slide_content">
-                                    <div class="slide_text">
-                                        <h3 id="slide_subtitle_id4" class="slide_subtitle">Coming Soon...</h3>
-                                         <p id="slide_information_id4" class="slide_information">React, Java, C++, SQL, Node, Json and other courses are on the way!</p>
-                                    </div>
-                                <img class = "slide_photo" src="./img/origamid.jpg" alt="">
-                            </div>
-                                
-                            </div>
-                            <div class="navigation-auto">
-                                <div class="auto-btn1"></div>
-                                <div class="auto-btn2"></div>
-                                <div class="auto-btn3"></div>
-                                <div class="auto-btn4"></div>
-                            </div>
-                        </div>
-                    </div>
-                
+        </section>
     
-                    <div class="navigation-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                    </div>
-    
-                </div>
         
-            </article>
-      
-            <article class="courses">
-                <div class="slider">
-                    <h1 class="slide_title">Awards</h1>
-                    
-                    <div class="slide_img">
-                        <div class="slides">
-                            <input type="radio" name="radio2-btn2" id="radio5">
-                            <input type="radio" name="radio2-btn2" id="radio6">
-                    
-                            <div class="slide first">
-                                <div class="slide_content">
-                                    <div class="slide_text">
-                                        <h3 id="slide_subtitle_id5" class="slide_subtitle">Outstanding Perform</h3>
-                                        <p id="slide_information_id5" class="slide_information">In all my years as a student I won some "Outstanding Student Award", normally by a junction of grades, conduct and performance"</p>
-                                    </div>
-                                    <img class = "slide_photo" src="./img/catwin.jpg" alt="">
-                                </div>
-                                
-                            </div>
-                            <div class="slide">
-                                <div class="slide_content">
-                                    <div class="slide_text">
-                                        <h3 id="slide_subtitle_id6" class="slide_subtitle">OBMEP</h3>
-                                        <p id="slide_information_id6" data-css="smaller_txt" data-nm="obmep" data-tf="false" class="slide_information">In 2017 I partipate in my first math olympcs, the OBMEP, since then, all the years I pass in the first test and go to the real phase, there I already won two honorable mention (it mean I almost won a medal)</p>
-                                    </div>
-                                    <img class = "slide_photo" src="./img/obmep.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="navigation-auto2">
-                                <div class="auto-btn2"></div>
-                                <div class="auto-btn2"></div>
-                            </div>
-                        </div>
-                    </div>
-                
-    
-                    <div class="navigation-manual2">
-                        <label for="radio5" class="manual-btn2"></label>
-                        <label for="radio6" class="manual-btn2"></label>
-                    </div>
-    
-                </div>
-        
-            </article>
-        </div>
+        <section id="skill_id" class="skill">
+            <container class="container1_skill">
+                <article class="myskill">
+                    <p id="my_id" class="my">My</p>
+                    <p class="skills">Skills</p>
+                </article>
+                <h3 class="hard">Hard</h3>
+                <div class="gambiarra"></div>
+            </container>
 
-        
-
-
-
-    </section>
-
-
-    <section class="contact">
-        <article class="contact_area1">
-            <h1 id="contact_title_id" class="contact_title">Need <br> Someone?</h1>
-            <h1 id="contact_title2_id"class="contact_title">Contact <br> me!</h1>
-        </article>
-        
-
-        <article id="contact_id" class="contact_area2"> 
-            <div class="area1">
-                <h1 id="title_area_id" class="title_area">Send a message to:</h1>
-                <h3 class="email">caire.maia.ds@gmail.com</h3>
-                <br>
-                <h3 class="email">+55 48 998530-7457</h3>
+            <container class="container2_skill">
+                <article class="skillevel">
+                    <h3 class="desc">JavaScript</h3>
+                    <img class="nivel" src="./img/Vector.svg">
+                    <h3 class="desc">CSS3</h3>
+                    <img class="nivel" src="./img/Vector(2).svg">
+                    <h3 class="desc">HTML5</h3>
+                    <img class="nivel" src="./img/Vector(3).svg">
+                </article>
+            </container>
             
-                <form action="https://formspree.io/f/xoqzdjwb"
-                method="POST">
-                    <div class="input_box">
-                        <input type="text" required="required" id="name" name="name">
-                        <span id="full_name_id">Full Name</span>
-                    </div>
-                    <div class="input_box">
-                        <input type="email" required="required" id="email" name="email">
-                        <span>E-mail</span>
-                    </div>
-                    <div class="input_box">
-                        <textarea required="required" id="message" rows="4" name="message"></textarea>
-                        <span id="message_id">Message...</span>
-                    </div>
-                    <div class="input_box">
-                        <button id="send_id" class="submit" type="submit">Send</button>
-                        <!-- <input id="send_id" class="submit" type="submit" value="Send">  -->
-                    </div>
-                </form>
-            </div> 
+            <container class="container3_skill">
+                <div class="tooltip">
+                    <span class="description_skill">CSS</span>
+                    <img class="skill_icon" src="./img/css.png" alt="Css">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">HTML</span>
+                    <img class="skill_icon" src="./img/html.png" alt="Html">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">JavaScript</span>
+                    <img class="skill_icon" src="./img/js.png" alt="JavaScript">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">Github</span>
+                    <img class="skill_icon" src="./img/github.png" alt="Github">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">Netlify</span>
+                    <img class="skill_icon" src="./img/neltfly.png" alt="Neltfly">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">Json</span>
+                    <img class="skill_icon" src="./img/json.png" alt="Json">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">CoreoDraw</span>
+                    <img class="skill_icon" src="./img/coreodraw.png" alt="CoreoDraw">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">Photoshop</span>
+                    <img class="skill_icon" src="./img/photoshop.png" alt="PhotoShop">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">Excel</span>
+                    <img class="skill_icon" src="./img/excel.png" alt="Excel">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">PowerPoint</span>
+                    <img class="skill_icon" src="./img/powerpoint.png" alt="PowerPoint">
+                </div>
+                <div class="tooltip">
+                    <span class="description_skill">Word</span>
+                    <img class="skill_icon" src="./img/word.png" alt="Word">
+                </div>
+                <div class="tooltip">
+                    <span id="windows_id" class="description_skill">Windows System</span>
+                    <img class="skill_icon" src="./img/windows.png" alt="Windows">
+                </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                <!-- //pesquisar como colocar button em vetor -->
+        
+            </container>
+            
+        </section>
 
-            <div class="area2">    
-                <h1   h1 id="socialmedia_id" class="socialmedia">My Social Media:</h1>
-                <div class="links">
-                    <a href="https://www.linkedin.com/in/caire-maia/" target="_blank"><img src="./img/linkedin.png"></a>
-                    <a href="https://github.com/Ximbeh" target="_blank"><img src="./img/github.png"></a>
-                    <a href="https://wa.me/5548998537457" id="zap" target="_blank"><img src="./img/whatsapp.png"></a>
-                    <a href="https://twitter.com/Ximb2005" target="_blank"><img src="./img/twitter.png"></a>
-                    <a href="https://www.instagram.com/ximb2005/" target="_blank"><img src="./img/instagram.png"></a>
-                    <button class="copy-image" onclick="copyToClipboard('Ximb#7167')"><img src="./img/discord.png"></button>
+
+        <section class="projects">
+            <container class="left_project">
+                <h1 id="title_project_id" class="title_project">Pro <br> jects</h1>
+                <h3 id="sub_project_id" class="sub_project">Theses are some of my favorites <strong>sites</strong> and <strong>drawings</strong> I've
+                since last year. Hope you enjoy!</h3>
+                <img class="point_cat" src="./img/gatoapontando.png">
+            </container>
+            <div class = "project-wrapper" id="project_id"> 
+                <container id="project_id1" class="project">
+                    <img data-modal-target="#modal1" id="project_img1" class="" src="./img/devmedia.jpg">
+                    <img data-modal-target="#modal2" id="project_img2" src="./img/calculadoraimc.jpg">
+                    <img data-modal-target="#modal3" id="project_img3" src="./img/Situacao.jpg">
+                    <img data-modal-target="#modal4" id="project_img4" src="./img/bikcraft.jpg">
+                    <img data-modal-target="#modal5" id="project_img5" src="./img/EsRKnlaWMAEPeTi.jpg">
+                    <img data-modal-target="#modal6" id="project_img6" src="./img/japao.jpg">
+                    <img data-modal-target="#modal7" id="project_img7" src="./img/labareda.jpg">
+                    <img data-modal-target="#modal8" id="project_img8" src="./img/geekie one.jpg">
+                    <!-- <img class="arrow" id="arrow" src="./img/arrow-right-1.svg" alt=""> -->
+                </container>
+                <!-- <container id="project_id2" class="project">
+                    <img data-modal-target="#modal01" id="project_img01" src="./img/CarnavalBrasil.jpeg">
+                    <span id="span1">Coming Soon...</span>
+                    <span id="span2">Coming Soon...</span>
+                    <span id="span3">Coming Soon...</span>
+                    <span id="span4">Coming Soon...</span>
+                    <span id="span5">Coming Soon...</span>
+                    <span id="span6">Coming Soon...</span>
+                    <span id="span7">Coming Soon...</span>
+                    <img class="arrow" id="arrow" src="./img/arrow-right-1.svg" alt="">
+                </container> -->
+            
+            </div>
+        
+
+            <div class="modal" id="modal1">
+                <button data-close-button class="close_button">&times;</button>
+                <img src="./img/devmedia.jpg">
+                <p id="p1_id">I made this project in early 2023, I was watching several videos of  <a href="https://www.devmedia.com.br/" target="_blank">DevMedia</a> and saw a Front-End test that they made for new interns. So I decided to prove myself and tried to reply with the same result in the same amount of time. I can say that I got 90% in Front-End, just some sizes and colors that aren't perfect, and, of course, the position of the buttons.  </p>
+                <!-- <p>Feito logo no inicio de 2023, estava maratonando alguns videos da <a href="https://www.devmedia.com.br/" target="_blank">DevMedia</a> e vi esta prova Front-End que eles fizeram para escolha de estagio, fiquei curioso para saber se eu conseguia repetir o mesmo resultado no tempo proposto. Eu acho que posso dizer que consegui 90% da parte de Front-End, só faltando algumas exatidões em tamanhos e a posição dos botões.</p> -->
+                <div class="button_project">
+                    <a href="https://dev-media-teste.netlify.app" target="_blank">Site</a>
+                    <a id="repositorio_id" href="https://github.com/Ximbeh/Teste_DevMidia_Prova" target="_blank">Repository</a>
                 </div>
             </div>
-        </article>
-    </section>
 
-    <footer>
-        <p>Todos os direitos reservados a Cairé de Marco Maia</p>
-    </footer>
+            <div class="modal" id="modal2">
+                <button data-close-button class="close_button">&times;</button>
+                <img src="./img/calculadoraimc.jpg"></a>
+                <p id="p2_id">This IMC calculator was one of my biggest challenges and one of my favorite projects. It was part of the quarterly test in <a href="https://escola-s.com/" target="_blank">Escola S</a> at the second quarter of the second year. We had half of a morning to make this website involving a bit of everything that we learned. I say that it is one of my favorite projects because I had to overcome myself in both coding and CSS... this was one of my first "beautiful" sites.</p>
+                <!-- <p>Esta calculadora de IMC foi um dos meus maiores desafios e um dos meus maiores orgulhos, foi parte da prova trimestral na <a href="https://escola-s.com/" target="_blank">Escola S</a> no segundo trimestre do segundo ano, tivemos meia manha para fazer esse site envolvendo um pouco de tudo o que aprendemos. Digo que fico orgulhoso pois consegui me superar tanto na questão de código quando na de Design, foi um dos primeiros sites verdadeiramente bonitos (para o nível da época) que eu fiz.</p> -->
+                <div class="button_project">
+                    <a href="https://imc-calculator-senai.netlify.app" target="_blank">Site</a>
+                    <a id="repositorio_id2" href="https://github.com/Caire-Maia/IMC_Calculator" target="_blank">Repository</a>
+                </div>
+            </div>
+
+            <div class="modal" id="modal3">
+                <button data-close-button class="close_button">&times;</button>
+                <img src="./img/Situacao.jpg"></a>
+                <p id="p3_id">Certainly the biggest projects (maybe it's going down to second with this Portfolio) and the painful ones. The "Situação de Aprendizagem" was a project that combined two subjects, Nature (Quimic, Physics and Biology) and System Development, creating group work for an entire semester. The theme of the site is thermodynamics, your concepts, utilities, and a functional calculator. Today I can look back and see all the progress, this is so gratifying
+                <!-- <p>Certamente o maior projeto (talvez fique em segundo com esse Portfólio) e o mais trabalhoso que tive. A situação de aprendizagem juntou duas matérias, natureza e desenvolvimento de sistemas, criando então um trabalho em grupo para um semestre inteiro, aonde tinhamos que fazer um site sobre térmodinamica, seus conceitos, utilidades e uma calculadora funcional. Hoje em dia consigo olhar para trás e ver todos os erros que cometi na epoca e como eu consegui superar eles hoje em dia, isto é muito gratificante.</p> -->
+                <div class="button_project">
+                    <a href="https://barcopoggers.netlify.app/" target="_blank">Site</a>
+                    <a id="repositorio_id3"  href="#" target="_blank">Repository</a>
+                </div>
+            </div>
+
+            <div class="modal" id="modal4">
+                <button data-close-button class="close_button">&times;</button>
+                <img src="./img/bikcraft.jpg"></a>
+                <p id="p4_id"> A simple project, but very important, part of the HTML and CSS course of <a href="https://www.origamid.com/" target="_blank">Origamid</a>. I tested from the simplest to the most advanced pieces of knowledge. This was my first Responsive Website.  </p>
+                <!-- <p>Projeto simples mas importantissimo, parte do curso de HTML e CSS da <a href="https://www.origamid.com/" target="_blank">Origamid</a>, testei meus conhecimentos dos mais basicos até os mais avançados em ambas as linguagens, sendo este inclusive meu primeiro projeto responsivo.</p> -->
+                <div class="button_project">
+                    <a href="https://bikcraftatv600.netlify.app" target="_blank">Site</a>
+                    <a id="repositorio_id4"  href="https://github.com/Ximbeh/0606_Origamid_HTMLCSS" target="_blank">Repository</a>
+                </div>
+            </div>
+
+            <div class="modal" id="modal5">
+                <button data-close-button class="close_button">&times;</button>
+                <img src="./img/EsRKnlaWMAEPeTi.jpg"></a>
+                <p id="p5_id">Maybe my favorite drawing. I tested a hot colour palette and challenged myself to do a more realistic inside-house landscape, something that I particularly dislike. I drew in photoshop with some images for reference.</p>
+                <!-- <p>Um dos meus desenhos favoritos, testei uma paleta de cores mais quentes e me desafiei ao desenhar realismo em paisagem "inside-house", algo que particularmente não curto. Fiz no photoshop com algumas referencias.</p> -->
+            </div>
+
+            <div class="modal" id="modal6">
+                <button data-close-button class="close_button">&times;</button>
+                <img src="./img/japao.jpg"></a>
+                <p id="p6_id"> I spent weeks on this drawing, a reference to <cite>"Japanese Bridge"</cite> from Monet, where I draw Japan's Countryball in the painting. The work as a whole certainly elevated my artistic level, bringing me even closer to impressionism and its concepts. </p>
+                <!-- <p>Passei semanas neste desenho, uma releitura da <cite>"Ponte Japonesa"</cite> de Monet, aonde coloco uma countryball do Japão na pintura. Certamente algo que elevou meu nivel artistico, me aproximando mais ainda do impressionismo e seus conceitos.</p> -->
+            </div>
+
+            <div class="modal" id="modal7">
+                <button data-close-button class="close_button">&times;</button>
+                <img src="./img/labareda.jpg">
+                <p id="p7_id">This website is a bit different because I technically didn't entirely make it. I helped a friend with the Design and some other simple fixes to the code, and I earned a Sushi! </p>
+                <!-- <p>Este site é um pouco diferente, nele somente ajudei meu amigo Daniel Siqueira na parte de Design e outras ajudas simples com o código, ganhei um sushi por isso!</p> -->
+                <div class="button_project">
+                    <a href="#">Site</a>
+                    <a id="repositorio_id5" href="https://github.com/Danielsqrr/Daniel-Siqueira" target="_blank">Repository</a>
+                </div>
+            </div>
+
+            <div class="modal" id="modal8">
+                <button data-close-button class="close_button">&times;</button>
+                <img src="./img/geekie one.jpg">
+                <p id="p8_id">In this challenge requested by Teacher <a href="https://www.linkedin.com/in/bruno-bandeira-fernandes/" target="_blank">Bruno</a> we had to use our creativity to create a functional login system for some digital platform. Our group decided to re-create from scratch the site of <a href="https://one.geekie.com.br/" target="_blank">Geekie One</a> (Where we have our content to study). We made a rule that we cannot look at the original code of the site</p>
+                <!-- <p>Neste desafio passado pelo professor <a href="https://www.linkedin.com/in/bruno-bandeira-fernandes/" target="_blank">Bruno</a> tivemos que usar nossa critatividade para criar um sistema de login funcional em alguma plataforma digital, nosso grupo então decidiu recriar do zero o site da <a href="https://one.geekie.com.br/" target="_blank">Geekie One</a> (Aonde temos nosso conteudo para estudo), com a regra de não poder olhar o código original do site.</p> -->
+                <div class="button_project">
+                    <a href="https://geekieone.netlify.app" target="_blank">Site</a>
+                    <a id="repositorio_id6" href="https://github.com/Ximbeh/Desafio-Front-End" target="_blank">Repository</a>
+                </div>
+            </div>
+
+
+
+
+            <div id="overlay"></div>
+
+        </section>
+
+
+        <section id="certificate_id" class="certificates">
+            <h1 id="title_certificate_id" class="title_certificates">Certificates</h1>
+
+            <div class="content_certificates">
+                <article class="courses">
+                    <div class="slider">
+                        <h1 id="slide_title_id" class="slide_title">Courses</h1>
+                        
+                        <div class="slide_img">
+                            <div class="slides">
+                                <input type="radio" name="radio-btn" id="radio1">
+                                <input type="radio" name="radio-btn" id="radio2">
+                                <input type="radio" name="radio-btn" id="radio3">
+                                <input type="radio" name="radio-btn" id="radio4">
+                        
+                                <div class="slide first">
+                                    <div class="slide_content">
+                                        <div class="slide_text">
+                                            <h3 id="slide_subtitle_id1" class="slide_subtitle">Complete JavaScript</h3>
+                                            <p id="slide_information_id1" class="slide_information">In this Origamid course, I learned almost everything I know about JavaScript, it was more than 30 hours of courses with a lot of learning!</p>
+                                        </div>
+                                        <img class = "slide_photo" src="./img/origamidJS.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="slide">
+                                    <div class="slide_content">
+                                        <div class="slide_text">
+                                            <h3 id="slide_subtitle_id2" class="slide_subtitle">HTML & CSS</h3>
+                                            <p id="slide_information_id2" class="slide_information">Probably the course I had the most fun doing, once again offered by Origamid. It's a great 23-hour course for beginners in the field.</p><object data="" type=""></object>
+                                        </div>
+                                        <img class = "slide_photo" src="./img/origamidCSS.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slide_content">
+                                        <div class="slide_text">
+                                            <h3 id="slide_subtitle_id3" class="slide_subtitle">UX/UI Design</h3>
+                                            <p id="slide_information_id3" class="slide_information">Very important course that I took before starting this portfolio (and for this portfolio), the 17 hours of courses brought me several new knowledge in the area of Web Design, such as the use of the Figma tool.</p>
+                                        </div>
+                                        <img class = "slide_photo" src="./img/origamidDESIGN.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="slide">
+                                    <div class="slide_content">
+                                        <div class="slide_text">
+                                            <h3 id="slide_subtitle_id4" class="slide_subtitle">Coming Soon...</h3>
+                                            <p id="slide_information_id4" class="slide_information">React, Java, C++, SQL, Node, Json and other courses are on the way!</p>
+                                        </div>
+                                    <img class = "slide_photo" src="./img/origamid.jpg" alt="">
+                                </div>
+                                    
+                                </div>
+                                <div class="navigation-auto">
+                                    <div class="auto-btn1"></div>
+                                    <div class="auto-btn2"></div>
+                                    <div class="auto-btn3"></div>
+                                    <div class="auto-btn4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+        
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                        </div>
+        
+                    </div>
+            
+                </article>
+        
+                <article class="courses">
+                    <div class="slider">
+                        <h1 class="slide_title">Awards</h1>
+                        
+                        <div class="slide_img">
+                            <div class="slides">
+                                <input type="radio" name="radio2-btn2" id="radio5">
+                                <input type="radio" name="radio2-btn2" id="radio6">
+                        
+                                <div class="slide first">
+                                    <div class="slide_content">
+                                        <div class="slide_text">
+                                            <h3 id="slide_subtitle_id5" class="slide_subtitle">Outstanding Perform</h3>
+                                            <p id="slide_information_id5" class="slide_information">In all my years as a student I won some "Outstanding Student Award", normally by a junction of grades, conduct and performance"</p>
+                                        </div>
+                                        <img class = "slide_photo" src="./img/catwin.jpg" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="slide">
+                                    <div class="slide_content">
+                                        <div class="slide_text">
+                                            <h3 id="slide_subtitle_id6" class="slide_subtitle">OBMEP</h3>
+                                            <p id="slide_information_id6" data-css="smaller_txt" data-nm="obmep" data-tf="false" class="slide_information">In 2017 I partipate in my first math olympcs, the OBMEP, since then, all the years I pass in the first test and go to the real phase, there I already won two honorable mention (it mean I almost won a medal)</p>
+                                        </div>
+                                        <img class = "slide_photo" src="./img/obmep.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="navigation-auto2">
+                                    <div class="auto-btn2"></div>
+                                    <div class="auto-btn2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+        
+                        <div class="navigation-manual2">
+                            <label for="radio5" class="manual-btn2"></label>
+                            <label for="radio6" class="manual-btn2"></label>
+                        </div>
+        
+                    </div>
+            
+                </article>
+            </div>
+
+            
+
+
+
+        </section>
+
+
+        <section class="contact">
+            <article class="contact_area1">
+                <h1 id="contact_title_id" class="contact_title">Need <br> Someone?</h1>
+                <h1 id="contact_title2_id"class="contact_title">Contact <br> me!</h1>
+            </article>
+            
+
+            <article id="contact_id" class="contact_area2"> 
+                <div class="area1">
+                    <h1 id="title_area_id" class="title_area">Send a message to:</h1>
+                    <h3 class="email">caire.maia.ds@gmail.com</h3>
+                    <br>
+                    <h3 class="email">+55 48 998530-7457</h3>
+                
+                    <form action="https://formspree.io/f/xoqzdjwb"
+                    method="POST">
+                        <div class="input_box">
+                            <input type="text" required="required" id="name" name="name">
+                            <span id="full_name_id">Full Name</span>
+                        </div>
+                        <div class="input_box">
+                            <input type="email" required="required" id="email" name="email">
+                            <span>E-mail</span>
+                        </div>
+                        <div class="input_box">
+                            <textarea required="required" id="message" rows="4" name="message"></textarea>
+                            <span id="message_id">Message...</span>
+                        </div>
+                        <div class="input_box">
+                            <button id="send_id" class="submit" type="submit">Send</button>
+                            <!-- <input id="send_id" class="submit" type="submit" value="Send">  -->
+                        </div>
+                    </form>
+                </div> 
+
+                <div class="area2">    
+                    <h1   h1 id="socialmedia_id" class="socialmedia">My Social Media:</h1>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/caire-maia/" target="_blank"><img src="./img/linkedin.png"></a>
+                        <a href="https://github.com/Ximbeh" target="_blank"><img src="./img/github.png"></a>
+                        <a href="https://wa.me/5548998537457" id="zap" target="_blank"><img src="./img/whatsapp.png"></a>
+                        <a href="https://twitter.com/Ximb2005" target="_blank"><img src="./img/twitter.png"></a>
+                        <a href="https://www.instagram.com/ximb2005/" target="_blank"><img src="./img/instagram.png"></a>
+                        <button class="copy-image" onclick="copyToClipboard('Ximb#7167')"><img src="./img/discord.png"></button>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <p>Todos os direitos reservados a Cairé de Marco Maia</p>
+        </footer>
+    </div>
+    
 
 
 </body>
