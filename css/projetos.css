@@ -7,6 +7,13 @@
     position: relative;
 }
 
+.construction{
+    width: 30rem;
+    position: absolute;
+    bottom: -4.5rem;
+    left: 25rem;
+}
+
 .left_project{
     position: relative;
     padding-top: 1rem;
