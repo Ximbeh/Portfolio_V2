@@ -57,7 +57,7 @@
     overflow-x: scroll; /* Alteração aqui para permitir a rolagem horizontal */
     white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
     width: 33vw;
-    z-index: 2;
+
 }
 
 
@@ -111,14 +111,13 @@
     opacity: 0;
     pointer-events: none;
     transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    z-index: -1; 
+
 }
 
 .project-wrapper li:hover .tooltipProject {
     opacity: 1;
     pointer-events: auto;
     right: -14.5rem;
-    z-index: 1; 
 }
 
 
