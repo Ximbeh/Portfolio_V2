@@ -1,38 +1,26 @@
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+function configurarModal(buttonOpen, modal, buttonClose) {
 
-openModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const modal = document.querySelector(button.dataset.modalTarget)
-    openModal(modal)
-  })
-})
+  buttonOpen.addEventListener("click", function () {
+    modal.showModal();
 
-overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal.active')
-  modals.forEach(modal => {
-    closeModal(modal)
-  })
-})
+  });
 
-closeModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const modal = button.closest('.modal')
-    closeModal(modal)
-  })
-})
+  buttonClose.addEventListener("click", function () {
+    modal.close();
+  });
 
-function openModal(modal) {
-  if (modal == null) return
-  modal.classList.add('active')
-  overlay.classList.add('active')
+  modal.addEventListener("click", function (event) {
+    if (event.target === modal) {
+      modal.close();
+    }
+  });
+
 }
 
-function closeModal(modal) {
-  if (modal == null) return
-  modal.classList.remove('active')
-  overlay.classList.remove('active')
+for (let i = 1; i <= 14; i++) {
+  const buttonOpen = document.getElementById(`project_img${i}`);
+  const modal = document.getElementById(`modal${i}`);
+  const buttonClose = document.getElementById(`close_button${i}`);
+
+  configurarModal(buttonOpen, modal, buttonClose);
 }
-
-

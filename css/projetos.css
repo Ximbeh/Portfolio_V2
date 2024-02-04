@@ -70,6 +70,7 @@
     font-family: 'Poppins';
     margin-bottom: 5vh;
     position: relative;
+    color: var(--c12)
 }
 
 .date h2:first-child{
@@ -343,41 +344,38 @@
 }
 
 
-
-
-
 .modal{
-    position: absolute;
+    width: 40rem;
     background-color: var(--c13modal);
     color:var(--c3modal);
     font-size: 1.3rem;
     align-content: center;
-    left: 50%;
-    top: 10%;
-    transform:translateX(-50%) scale(0);
     padding: 5rem 5rem 2rem 5rem;
     margin-top: 5rem;
     text-align: center;
-    z-index: 10;
+    z-index: 200;
     border-radius: 20px;
     transition: 200ms ease-in-out;
 }
 
-#modal2{
-    top: 5%;
-}
-
-#modal3{
-    top: 5% ;
+.modal .close_button{
+    display: block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color:var(--c3modal);
 }
 
 .modal a{
     color:var(--r5);
 }
 
-.modal.active{
-    transform:  translateX(-50%) scale(1);
-}
 
 .modal .close_button{
     display: block;
@@ -418,50 +416,17 @@
     width: 8rem;
 }
 
-#modal6 img{
-    max-width: 20vw;
-}
-
-
-
-#overlay{
-    position: absolute;
-    background-color: var(--c13modalb);
-    width: 100%;
-    height: 100%;
-    opacity: 0; 
-    pointer-events: none;
-    transition: 200ms ease-in-out;
-}
-
-#overlay.active{
-    opacity: 0.5;
-    pointer-events: all;
-}
-
 .modal img:hover{
     cursor:auto;
 }
 
-.arrow_left {
-    font-size: 50px;
-    color: #ccc;
-    cursor: pointer;
-  }
-  
-  .arrow_right{
-    color: #555;
-  }
+dialog::backdrop{
+    backdrop-filter: blur(3px);
+}
 
- h3#sub_project_id.sub_project{
-    display: block;
-    margin-top: 2rem;
-    max-width: 20rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--c11);
- }
-
+dialog{
+    border: none;
+}
 
  @media screen and (max-width: 1220px){
     .point_cat{
