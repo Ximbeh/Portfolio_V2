@@ -351,7 +351,6 @@
     font-size: 1.3rem;
     align-content: center;
     padding: 5rem 5rem 2rem 5rem;
-    margin-top: 5rem;
     text-align: center;
     z-index: 200;
     border-radius: 20px;
@@ -404,8 +403,10 @@
     margin-bottom: 1rem;
 }
 
-.button_project a:first-child{
-    margin-right: 5%;
+.button_project{
+    display: flex;
+    justify-content: center;
+    gap: 3vh 5vw
 }
 
 .button_project a{
@@ -414,6 +415,12 @@
     border-radius: 10px;
     color:var(--c3modal);
     width: 8rem;
+}
+
+.buttonReactNative{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh
 }
 
 .modal img:hover{
