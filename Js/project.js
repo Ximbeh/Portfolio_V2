@@ -2,7 +2,7 @@ function configurarModal(buttonOpen, modal, buttonClose) {
 
   buttonOpen.addEventListener("click", function () {
     modal.showModal();
-
+    
   });
 
   buttonClose.addEventListener("click", function () {
@@ -17,7 +17,7 @@ function configurarModal(buttonOpen, modal, buttonClose) {
 
 }
 
-for (let i = 1; i <= 14; i++) {
+for (let i = 1; i <= 15; i++) {
   const buttonOpen = document.getElementById(`project_img${i}`);
   const modal = document.getElementById(`modal${i}`);
   const buttonClose = document.getElementById(`close_button${i}`);

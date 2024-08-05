@@ -73,13 +73,19 @@
     color: var(--c12)
 }
 
-.date h2:first-child{
+.vinteQuatro{
     position: absolute;
-    left: 20rem;
+    left: 5rem;
     Top: -5vh;
 }
 
-.date h2:last-child{
+.vinteTres{
+    position: absolute;
+    left: 25rem;
+    Top: -5vh;
+}
+
+.vinteDois{
     position: absolute;
     left: 126.5rem;
     Top: -5vh;
@@ -164,6 +170,10 @@
     position: relative;
 }
 
+.segundoGrid li{
+    top: -25px;
+}
+
 
 
 
@@ -208,65 +218,70 @@
 }
 
 
-.primeiroGrid li:nth-child(1)::before {
+.segundoGrid li:nth-child(1)::before {
     content: '25-Nov'; 
 }
 
-.primeiroGrid li:nth-child(2)::before {
+.segundoGrid li:nth-child(2)::before {
     content: '29 - Jul';
 }
 
-.primeiroGrid li:nth-child(3)::before {
+.segundoGrid li:nth-child(3)::before {
     content: '19 - Apr';
 }
 
-.primeiroGrid li:nth-child(4)::before {
+.segundoGrid li:nth-child(4)::before {
     content: '16 - Feb';
 }
 
-.primeiroGrid li:nth-child(5)::before {
+.segundoGrid li:nth-child(5)::before {
     content: '12 - Jan';
 }
 
-.primeiroGrid li:nth-child(6)::before {
+.segundoGrid li:nth-child(6)::before {
     content: '23 - Nov';
 }
 
-.primeiroGrid li:nth-child(7)::before {
+.segundoGrid li:nth-child(7)::before {
     content: '02 - Aug';
 }
 
-.segundoGrid li:nth-child(1)::before {
+.primeiroGrid li:nth-child(1)::before {
+    content: '05-Ago'; 
+}
+
+
+.primeiroGrid li:nth-child(2)::before {
     content: '21 - Nov';
 }
 
-.segundoGrid li:nth-child(2)::before {
+.primeiroGrid li:nth-child(3)::before {
     content: '02 - Jun';
 }
 
-.segundoGrid li:nth-child(3)::before {
+.primeiroGrid li:nth-child(4)::before {
     content: '09 - Mar';
 }
 
-.segundoGrid li:nth-child(4)::before {
+.primeiroGrid li:nth-child(5)::before {
     content: '14 - Jan';
 }
 
-.segundoGrid li:nth-child(5)::before {
+.primeiroGrid li:nth-child(6)::before {
     content: '12 - Dec';
 }
 
-.segundoGrid li:nth-child(6)::before {
+.primeiroGrid li:nth-child(7)::before {
     content: '25 - Aug';
 }
 
-.segundoGrid li:nth-child(7)::before {
+.primeiroGrid li:nth-child(8)::before {
     content: '03 - Mar';
 }
 
 
 .segundoGrid li::before{
-    content: "25-Nov";
+    content: "05-Ago";
     position: absolute;
     display: flex;
     width: 7rem;
