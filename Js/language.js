@@ -11,6 +11,16 @@ let pt = [
     change: ""
   },
   {
+    elementID: "xp_link",
+    text: "Experiência",
+    change: ""
+  },
+  {
+    elementID: "xp_link2",
+    text: "Experiência",
+    change: ""
+  },
+  {
     elementID: "skill_link",
     text: "Habilidades",
     change: ""
@@ -88,7 +98,27 @@ let pt = [
   },
   {
     elementID: "description_id",
-    text: " Meu nome é <strong>Cairé</strong>, tenho 19 anos e moro em Florianópolis, estudo atualmente na faculdade <strong>UNISENAI</strong>, na área de desenvolvimento de sistemas. Estou buscando um <strong>trabalho</strong>, principalmente um <strong>Estágio</strong> ou <strong>Junior</strong> com aspectos de <br><strong>Front-End</strong> e <strong>Web-Design</strong>",
+    text: "Meu nome é <strong>Cairé</strong>, tenho 19 anos e moro em Florianópolis, estudo atualmente na faculdade <strong>UNISENAI</strong>, na área de desenvolvimento de sistemas. Estou buscando um <strong>trabalho</strong>, principalmente um <strong>Estágio</strong> ou <strong>Junior</strong> com aspectos de <br><strong>Front-End</strong> e <strong>Web-Design</strong>",
+    change: "" 
+  },
+  {
+    elementID: "xp_id",
+    text: "Experiências <br> profissionais",
+    change: ""
+  },
+  {
+    elementID: "h4_you",
+    text: "Você?",
+    change: ""
+  },
+  {
+    elementID: "p_you",
+    text: 'Se você gosta do meu trabalho, <a class="linkXp" href="#contact_id">me chama!</a>',
+    change: ""
+  },
+  {
+    elementID: "p_avanti",
+    text: 'Estágio como Desenvolvedor FrontEnd usando o sistema VTEX para propósitos de E-Commerce.</a>',
     change: ""
   },
   {
@@ -185,6 +215,11 @@ let pt = [
     text: "Primeiro web-site",
     change: "",
   },
+  {
+    elementID: "15_h2",
+    text: "Site de Formula-Um",
+    change: "",
+  },
   
   {
     elementID: "p1_id",
@@ -257,6 +292,11 @@ let pt = [
     change: ""
   },  
   {
+    elementID: "p15_id",
+    text: "Este é um projeto réplica do site oficial da Fórmula 1, criado como uma aplicação FullStack para exibir notícias, tabelas e informações sobre corridas, pilotos e equipes. O projeto foi desenvolvido para aprimorar habilidades em GraphQL e React, bem como para fornecer experiência prática em desenvolvimento FullStack. Usei Node.js para criar o servidor backend e conectar a um banco de dados MongoDB, aprendi a usar o Postman para consultas e conectei o Frontend e o Backend com requisições GraphQL.",
+    change: ""
+  },  
+  {
     elementID: "1_id2",
     text: "Meu maior projeto... um <span>JOGO</span>! Se você já jogou Minecraft, acredito que vai gostar deste.",
     change: ""
@@ -325,6 +365,11 @@ let pt = [
     elementID: "14_id2",
     text: "Aqui esta meu primeiro web-site, uma calculadora de velocidade média. Isso está muito feio!",
     change: ""
+},
+{
+  elementID: "15_id2",
+  text: "Meu primeiro projeto FulStack, recriei o site oficial da F1 e usei Node para criar um servidor e conecta-lo com MongoDb e React",
+  change: ""
 },
   {
     elementID: "repositorio_id",

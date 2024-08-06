@@ -1,5 +1,5 @@
 .projects{
-    background-color: var(--c3);
+  
     display: grid;
     grid-template-columns: 30vw 70vw;
     gap: 2rem;

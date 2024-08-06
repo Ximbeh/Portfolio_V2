@@ -1,0 +1,170 @@
+.experience{
+    padding: 5rem 10rem;
+    z-index: 10;
+    position: relative;
+}
+
+.xpTitle{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    color: var(--c13);
+}
+.linkXp{
+    color: var(--r5);
+    cursor: pointer;
+}
+
+.xpContainers{
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    max-width: 70vw;
+}
+
+.xpContainers article{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--c2);
+    box-shadow: inset 5px 8px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 2rem   ;
+}
+
+.xpContainers article img{
+    width: 6rem;
+    object-fit: contain;
+}
+
+.xpContainers div{
+    display: flex;
+    flex-direction: column;
+}
+
+.xpContainers h4{
+    color: var(--c11);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.xpContainers p{
+    color: var(--c12);
+    font-size: 1.5rem;
+}
+
+.workCat{
+    width: 30vw;
+    position: absolute;
+    bottom: -2.3rem;
+    right: 10rem;
+}
+
+@media screen and (max-width: 1024px){
+    .experience{
+        padding: 5rem 10%;
+        z-index: 10;
+        position: relative;
+    }
+    
+    .xpTitle{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+
+    }
+    .xpContainers{
+        margin-top: 2rem;
+        gap: 1.5rem;
+        max-width: 70vw;
+    }
+
+    .xpContainers article{
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .xpContainers article img{
+        width: 4rem;
+    }
+
+    .xpContainers h4{
+        font-size: 1.5rem;
+    }
+    
+    .xpContainers p{
+        font-size: 1rem;
+    }
+    
+    .workCat{
+        width: 30vw;
+        bottom: -2rem;
+        right: 10rem;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 630px){
+
+    .experience{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .xpTitle{
+        text-align: center;
+    }
+
+    .xpContainers{
+        max-width: 100%;
+    }
+
+    .xpContainers h4{
+        font-size: 1.2rem;
+    }
+    
+    .xpContainers p{
+        font-size: 0.8rem;
+    }
+
+    .workCat{
+        width: 40vw;
+        bottom: -1.2rem;
+        right: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+
+    .xpTitle{
+        font-size: 2.8rem;
+        line-height: 2.8rem;
+    }
+
+    .xpContainers article img{
+        width: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    
+    .xpTitle{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .xpContainers h4{
+        font-size: 1rem;
+    }
+    
+    .xpContainers p{
+        font-size: 0.5rem;
+    }
+    .workCat{
+        width: 60vw;
+    }
+}
